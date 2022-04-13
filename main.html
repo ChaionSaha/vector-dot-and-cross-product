@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="shortcut icon" href="img/pngtree-math-png-image_3166138.png" type="image/x-icon">
+		<link rel="stylesheet" href="sass/main.css" />
+
+		<title>Vector Dot and Cross Product</title>
+	</head>
+	<body>
+
+		<div class="preloader" id="preloader">
+			<div class="preloader-text">
+				Vector Dot and Cross Product
+			</div>
+			<div class="preloader-bar">
+				<div class="preloader-bar-bg">
+					<div class="preloader-bar-text"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cursor cursor-inner"></div>
+		<div class="cursor cursor-outer"></div>
+
+		<div class="heading">
+			<h1 class="heading--main">Vector Dot and Cross Product</h1>
+		</div>
+		<div class="input">
+			<input type="text" class="vector vector--a defaultCursor" id="vector--a" placeholder="Enter vector A"/>
+			<input type="text" class="vector vector--b defaultCursor" id="vector--b" placeholder="Enter vector B"/>
+		</div>
+
+		<div class="buttons">
+			<span>
+				<button class="button submit defaultCursor">Submit</button>
+				<button class="button clear defaultCursor">Clear</button>
+			</span>
+			<!-- 
+				<span>
+					<button class="button dot--product defaultCursor">Dot Product</button>
+					<button class="button cross--product defaultCursor">Cross Product</button>
+				</span>
+			-->
+		</div>
+
+		<div class="output">
+			<p class="vector--output vector--dot hidden">Result</p>
+			<p class="vector--output vector--cross hidden">Result</p>
+		</div>
+
+		<div class="flash">
+			
+		</div>
+
+
+		<script src="javascript/main.js"></script>
+	</body>
+</html>
